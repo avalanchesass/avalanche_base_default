@@ -5,26 +5,6 @@
  *   Base styles: opinionated defaults  
  *   Adopted from the great https://html5boilerplate.com/
  */
-html {
-  font-size: strip-unit($font-base-size) / (16 / 100) * 1%;
-  line-height: strip-unit($font-base-line-height / $font-base-size);
-  @media (max-width: $breakpoint-max-m) {
-    font-size: strip-unit($font-base-size) / (16 / 87.5) * 1%;
-  }
-  @media (max-width: $breakpoint-max-s) {
-    font-size: strip-unit($font-base-size) / (16 / 75) * 1%;
-  }
-}
-
-html,
-button,
-input,
-select,
-textarea {
-  color: $font-base-color;
-  font-family: $font-a-family;
-}
-
 /*
  * A better looking default horizontal rule
  */
