@@ -1,13 +1,12 @@
 /**
- * @name Default
+ * Default
+ *
+ * Base styles: opinionated defaults<br>
+ * Adopted from the great [HTML5 Boilerplate](https://html5boilerplate.com/)
+ *
  * @level X.X.
- * @description
- *   Base styles: opinionated defaults  
- *   Adopted from the great [HTML5 Boilerplate](https://html5boilerplate.com/)
  */
-/*
- * A better looking default horizontal rule
- */
+// A better looking default horizontal rule
 hr {
   display: block;
   margin: 1em 0;
@@ -17,11 +16,9 @@ hr {
   border-top: 1px solid $cs-grey-b;
 }
 
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
+// Remove the gap between audio, canvas, iframes,
+// images, videos and the bottom of their containers:
+// https://github.com/h5bp/html5-boilerplate/issues/440
 audio,
 canvas,
 iframe,
@@ -31,26 +28,20 @@ video {
   vertical-align: middle;
 }
 
-/*
- * Remove default fieldset styles.
- */
+// Remove default fieldset styles.
 fieldset {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
-/*
- * Allow only vertical resizing of textareas.
- */
+// Allow only vertical resizing of textareas.
 textarea {
   resize: vertical;
 }
 
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- */
+// Remove text-shadow in selection highlight:
+// https://twitter.com/miketaylr/status/12228805301
 ::selection {
   background: $selection-background;
   color: $selection-color;
