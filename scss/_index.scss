@@ -1,0 +1,61 @@
+@import 'avalanchesass_base_default/style_guide';
+@import 'avalanchesass_base_default/variable';
+
+/**
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+@if $base-default-responsive-img {
+  /**
+   * Keep images from scaling beyond the width of their parents.
+   */
+  img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+  @if $base-default-responsive-img-gmap-fix {
+    /**
+     * Fix the img styling in Google Maps.
+     */
+    .gmap img {
+      max-width: none;
+    }
+  }
+}
+
+/**
+ * Remove default fieldset styles.
+ */
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/**
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical;
+}
+
+/**
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ */
+::selection {
+  background: $base-default-selection-background;
+  color: $base-default-selection-color;
+  text-shadow: none;
+}
