@@ -1,0 +1,20 @@
+@import 'avalanchesass_base_default/style_guide';
+
+$base-default-responsive-img: true;
+$base-default-responsive-img-gmap-fix: false;
+
+$base-default-selection-background: map-get($cs, a) !default;
+$base-default-selection-color: map-get($cs-contrast, a) !default;
+/*---
+title:   Variable
+name:    base_default_variable
+section: base_default
+---
+
+```css
+$base-default-responsive-img: #{$base-default-responsive-img};
+$base-default-responsive-img-gmap-fix: #{$base-default-responsive-img-gmap-fix};
+$base-default-selection-background: #{$base-default-selection-background};
+$base-default-selection-color: #{$base-default-selection-color};
+```
+*/
