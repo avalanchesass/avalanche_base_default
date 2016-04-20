@@ -1,6 +1,8 @@
 @import 'avalanchesass_base_default/style_guide';
 @import 'avalanchesass_base_default/variable';
 
+/* extract base.css */
+/* extract base_default.css */
 /**
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
@@ -59,3 +61,5 @@ textarea {
   color: $base-default-selection-color;
   text-shadow: none;
 }
+/* end extract base_default.css */
+/* end extract base.css */
