@@ -1,7 +1,7 @@
 @import 'avalanchesass_base_default/style_guide';
 
-$base-default-responsive-img: true;
-$base-default-responsive-img-gmap-fix: false;
+$base-default-responsive-img: true !default;
+$base-default-responsive-img-gmap-fix: false !default;
 
 $base-default-selection-background: map-get($cs, a) !default;
 $base-default-selection-color: map-get($cs-contrast, a) !default;
